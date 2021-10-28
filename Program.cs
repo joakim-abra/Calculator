@@ -28,10 +28,10 @@ namespace Calculator
                     while (chosenOperator < 1 || chosenOperator > 4)
                     {
                         Console.WriteLine("Välj en operator (1-4 eller tecken):");
-                        Console.WriteLine("1. +");
-                        Console.WriteLine("2. -");
-                        Console.WriteLine("3. *");
-                        Console.WriteLine("4. /");
+                    Console.WriteLine("1. +");
+                    Console.WriteLine("2. -");
+                    Console.WriteLine("3. *");
+                    Console.WriteLine("4. /");
                         string choice = Console.ReadLine();
                         switch(choice)
                         {
@@ -164,13 +164,13 @@ namespace Calculator
                     bool loop = true;
                     while (loop)
                     {
-                        Console.WriteLine();
-                        Console.WriteLine("Välj vad du vill göra: ");
-                        Console.WriteLine("1. Se uträkningar");
-                        Console.WriteLine("2. Göra ny uträkning");
-                        Console.WriteLine("3. Avsluta ");
+                    Console.WriteLine();
+                    Console.WriteLine("Välj vad du vill göra: ");
+                    Console.WriteLine("1. Se uträkningar");
+                    Console.WriteLine("2. Göra ny uträkning");
+                    Console.WriteLine("3. Avsluta ");
                         selection = Console.ReadLine();
-                        Console.WriteLine();
+                    Console.WriteLine();
 
                         switch (selection)
                         {
